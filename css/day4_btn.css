@@ -1,0 +1,169 @@
+body{
+  text-align:center;
+  color: #fff;
+  font-size: 16px;
+}
+body p{
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px;
+}
+.btn1{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px;
+}
+.btn2{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px;
+}
+.btn3{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px;
+}
+.btn4{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px 35px;
+  box-shadow: 0 5px 0 0 #25379B;
+}
+.btn5{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px;
+  background: linear-gradient(top, #3F51B5 50%, #20295B);
+  background: linear-gradient(to bottom, #3F51B5 50%, #20295B);
+}
+.black{
+  background-color: #333333;
+}
+.btn6{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #333333;
+  padding: 15px 35px;
+  border: solid 1px #fff;
+  border-radius: 0px;
+}
+/* .circle{
+  position: relative;
+  margin: auto;
+  width: 123px;
+  height: 123px;
+}
+.btn7{
+  position: absolute;
+  top: 50%;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  background-color: #3F51B5;
+  text-align: center;
+  -ms-transform: translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+} */
+.circle {
+  position: relative;
+  text-align: left;
+  background: #3F51B5;
+  height: 123px;
+  width: 123px;
+  border-radius: 50%;
+  margin:auto;
+}
+.btn7 {
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  /* left: 0; */
+  width: 123px;/*上のwidthと合わせる*/
+  text-align: center;
+
+  -ms-transform: translateY(-50%);
+  -webkit-transform : translateY(-50%);
+  transform : translateY(-50%);
+}
+.btn8{
+  width: 230px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3F51B5;
+  padding: 15px;
+  border-radius: 115px;
+}
+.btn-arrow {
+  -webkit-appearance: none;
+  background: transparent url(https://haniwaman.com/wp-content/uploads/2018/12/arrow.png) no-repeat center right 4px/16px 16px;
+  border: 1px solid #4b4b4b;
+  border-radius: 50;
+  color: #4b4b4b;
+  /* cursor: pointer; */
+  display: inline-block;
+  margin: 0;
+  padding: 12px 36px;
+  text-decoration: none;
+}
+
+.btn-arrow::-moz-foucus-inner {
+  border: none;
+  padding: 0;
+}
+
+.btn-arrow:hover,
+.btn-arrow:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */

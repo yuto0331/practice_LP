@@ -1,0 +1,203 @@
+body{
+  padding: 140px;
+  font-size: 24px;
+  color: #333333;
+  font-family: Yu Gothic, Bold;
+}
+.pattern1 {
+  border-bottom: solid 3px #3F51B5;
+}
+.pattern2{
+  border-bottom: dotted 3px #3F51B5;
+}
+.pattern3{
+  background-color: #3F51B5;
+  color: #fff;
+  padding: 5px 10px;
+}
+.pattern4{
+  background-color: #7385E9;
+  color: #fff;
+  padding: 5px 10px;
+  border-bottom: solid 3px #3F51B5;
+}
+.pattern5{
+  padding: 2.5px 12px;
+  border-left: solid 5px #3F51B5;
+}
+.pattern6{
+  display:inline-block;
+  background: linear-gradient(transparent 50%, #DCEE39 50%)
+}
+.pattern7{
+  display:inline-block;
+  background-color: #DCEE39;
+}
+.pattern8{
+  background-color: #3F51B5;
+  color: #fff;
+  padding: 5px 10px;
+  position: relative;
+}
+.pattern8:after{
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #3F51B5;
+  width: 0;
+  height: 0;
+}
+.pattern9{
+  border-bottom: solid 3px #3F51B5;
+  position: relative;
+}
+.pattern9:after{
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #B53F4F;
+  bottom: -3px;
+  width: 30%;
+}
+.pattern10{
+  position: relative;
+  padding: 0 2.5rem;
+}
+
+.pattern10:before{
+  position: absolute;
+  content: "";
+  left: 2.5px;
+  top: 10px;
+  width: 3px;
+  height: 16px;
+  display: inline-block;
+  background-color: #3F51B5;
+}
+.pattern11{
+  text-align: center;
+  position:relative;
+  /* display: inline-block; */
+}
+.pattern11:after{
+  content: "";
+  position:absolute;
+  bottom: -16px;
+  left: 45%;
+  height: 4px;
+  width: 52px;
+  background-color: #3F51B5;
+  text-align: center;
+}
+/* .pattern12{
+  position: relative;
+  padding: 0 2.5rem;
+} */
+/* .pattern12:before{
+  font-family: "Font Awesome 5 Free";
+  position:absolute;
+  content: "\f00c";
+  color: #3F51B5;
+  left: 0;
+  top: 0;
+} */
+.pattern12 {
+  position: relative;
+  padding-left: 2.5em;/*アイコン分のスペース*/
+  line-height: 1.4;
+}
+
+.pattern12:before {
+  /* font-family: "Font Awesome";
+  content: "\f053"; */
+  font-family: "Font Awesome 5 Free"; /*←ココ！！！！！！！*/
+	content : "\f00c";
+  font-weight: 900; /*←ココ！！！！！！！*/
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #3F51B5; /*アイコン色*/
+}
+.pattern14{
+  position: relative;
+  display: inline-block;
+  padding: 0 45px;
+}
+.pattern14:before, .pattern14:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background-color: #3F51B5;
+}
+.pattern14:before{
+  left: 0;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.pattern14:after{
+  right: 0;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+.pattern15{
+  position: relative;
+  display: inline-block;
+  padding: 0 145px;
+}
+.pattern15:before, .pattern15:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 130px;
+  height: 3px;
+  background-color: #3F51B5;
+}
+.pattern15:before{
+  left: 0;
+}
+.pattern15:after{
+  right: 0;
+}
+.pattern16{
+  /* text-shadow: 0 0 5px white; */
+  padding: 0.3rem 0.5rem;
+  background: -webkit-repeating-linear-gradient(-45deg, #3F51B5, #3F51B5 30px,#7385E9 30px, #7385E9 60px);
+  background: repeating-linear-gradient(-45deg, #3F51B5, #3F51B5 30px,#7385E9 30px, #7385E9 60px);
+}
+.pattern17{
+  /* text-shadow: 0 0 5px white; */
+  padding: 0.3rem 0.5rem;
+  background: -webkit-repeating-linear-gradient(-45deg, #3F51B5, #3F51B5 30px,#7385E9 30px, #7385E9 60px);
+  background: repeating-linear-gradient(-45deg, #3F51B5, #3F51B5 30px,#7385E9 30px, #7385E9 60px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */

@@ -1,0 +1,231 @@
+
+
+html{
+  margin: 0 auto;
+  padding: 0;
+}
+body{
+  margin: 0 auto;
+}
+.inner{
+  width: 100%;
+}
+
+
+
+/* ここからheader ベース---------------------*/
+header .navbar{
+  padding-left: 50px;
+  padding-right: 140px;
+}
+
+.header_bar{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  padding: 30px 140px;
+}
+/* ここまでheader ベース---------------------*/
+/* ここからheader pc---------------------*/
+@media screen and (min-width:640px){
+header .navbar{
+  padding-left: 140px;
+  height: 100px;
+}
+
+.menu_item:hover{
+  border-bottom: solid 3px #E81919;
+  color:#ffffff;
+}
+}
+
+/* ここまでheader pc ---------------------*/
+/* ここからmain ベース---------------------*/
+.main{
+  height: 600px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-image: url(../img/mainvisual.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  width: 1366px;
+  padding: 150px 309px;
+}
+/* ヘッダーとメインは被らせて作るもの？ */
+.main h1{
+  font-style: Yu Gothic, Bold;
+  color: #333333;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  line-height: 87px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.main p{
+    font-style: Yu Gothic, Bold;
+    color: #333333;
+    font-size: 38px;
+    line-height: 61px;
+    margin-top: 0;
+    margin-bottom: 70px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    text-align: center;
+}
+.main_btn{
+  width: 390px;
+  height: 83px;
+  background-color: #3F51B5;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px #000000;
+  text-align: center;
+  margin: 0 auto;
+}
+.main_btn a{
+  color:#FFFFFF;
+  font-size: 38px;
+  line-height: 83px;
+  text-decoration: none;
+}
+/* ここまでmain ベース---------------------*/
+/* ここからmain PC_area---------------------*/
+@media screen and (min-width:768px){
+  .main h1{
+    font-style: Yu Gothic, Bold;
+    color: #333333;
+    font-size: 68px;
+    padding: 0;
+    margin: 0;
+    line-height: 87px;
+    margin-bottom: 12px;
+  }
+}
+/* ここまでmain PC_area---------------------*/
+/* ここからCard ベース---------------------*/
+#Card {
+    padding: 15px;
+    padding-bottom: 80px;
+    background-color: #EFEFEF;
+}
+.card_title{
+  text-align: center;
+}
+#Card  h1{
+  font-size: 4rem;
+  position: relative;
+}
+.card_line{
+  width: 76px;
+  height: 5px;
+  background-color: #3F51B5;
+  margin-left:  auto;
+  margin-right:  auto;
+}
+
+.card-img-top{/* うまくいかない */
+  background-color: #silver;
+}
+/* ここまでCard ベース---------------------*/
+/* ここからNews ベース--------------------------- */
+#News h1{
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+}
+.news_title:after{
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 45%;
+  height: 4px;
+  width: 80px;
+  background-color: #3F51B5;
+  text-align: center;
+}
+/* ここまでNews ベース--------------------------- */
+#News{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#News ul{
+  padding: 0;
+  padding-top: 63px;
+  text-align: left;
+}
+#News ul>li{
+    list-style-type: none;
+  padding: 17px 0;
+}
+#News li + li {
+  border-top: solid 1px #707070;
+}
+#News time{
+  width:85px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: Yu Gothic;
+  font-weight: 100;
+}
+
+#News span{
+  margin-left: 15px;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4.5px 18px;
+}
+.rabel1{
+  background-color: #666666;
+}
+.rabel2{
+  background-color: #3F51B5;
+}
+.rabel3{
+  background-color: #E81919;
+}
+.rabel4{
+  background-color: #666666;
+}
+.rabel5{
+  background-color: #666666;
+}
+#News span.each_news{
+  color: black;
+  width: 576px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .mb {display: block;}
+  .pc { display: none;}
+/* ここからPC版 */
+@media screen and (min-width:640px){
+  .mb {display: none;}
+  .pc { display: block}
+}
+
+
+
+
+/* ←←　　　　　　　疑問箇所 */
